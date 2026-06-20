@@ -1,4 +1,4 @@
-# 🧠 Deep Learning — Signal Quality Prediction & Street View Digit Recognition
+# 📡🏙️ Deep Learning - Signal Quality Prediction & Street View Digit Recognition
 
 This project applies **Artificial Neural Networks (ANN)** to solve two real-world classification problems across two distinct domains: Electronics & Telecommunication and Autonomous Vehicles.
 
@@ -12,31 +12,31 @@ To design and evaluate deep learning models that can accurately classify multi-c
 
 ### Dataset Summary
 
-**Part 1 — Electronics & Telecommunication**
+**Part 1 - Electronics & Telecommunication**
 - Dataset of signal test records from a communications equipment manufacturing company
 - Each row represents a signal test with 11 measurable parameters
-- Target variable: **Signal Strength / Quality** (multi-class: classes 3–8)
+- Target variable: **Signal Strength / Quality** (multi-class: classes 3-8)
 - Key challenges: class imbalance and duplicate parameter records
 
-**Part 2 — Google Street View House Number (SVHN)**
+**Part 2 - Google Street View House Number (SVHN)**
 - Real-world image dataset sourced from Google Street View photographs
 - Images are grayscale, centred around a single digit with visual distractors
 - Data split: 42,000 train / 18,000 test / 60,000 validation samples
-- Target variable: **Digit class** (10 classes: 0–9)
+- Target variable: **Digit class** (10 classes: 0-9)
 - Key challenges: lighting variations, shadows, occlusions, and motion blur
 
 ---
 
 ### Approach
 
-**Part 1 — Signal Quality**
+**Part 1 - Signal Quality**
 - Exploratory Data Analysis (EDA) on signal parameters
 - Handling duplicate records via group-mean imputation
 - StandardScaler normalization and OneHotEncoding for multi-class labels
 - 70:30 stratified train-test split
 - Multiple ANN architectures evaluated with varying regularization techniques
 
-**Part 2 — Street View Digit Recognition**
+**Part 2 - Street View Digit Recognition**
 - Loading and preprocessing `.h5` format image data
 - Pixel normalization (dividing by 255) and label encoding via `to_categorical`
 - Flattened grayscale images (32×32 = 1024 features) fed into a fully connected ANN
@@ -46,7 +46,7 @@ To design and evaluate deep learning models that can accurately classify multi-c
 
 ### Deep Learning Models
 
-**Part 1 — Signal Quality Prediction**
+**Part 1 - Signal Quality Prediction**
 
 | Model | Architecture | Key Technique | Test Accuracy |
 |---|---|---|---|
@@ -55,7 +55,7 @@ To design and evaluate deep learning models that can accurately classify multi-c
 | Model 2 | 64 → 32 → 16 → 6 | Batch Normalization | ~58% |
 | Model 3 | 64 → 32 → 16 → 6 | Dropout (0.5) + BatchNorm | ~56% |
 
-**Part 2 — Street View Digit Recognition**
+**Part 2 - Street View Digit Recognition**
 
 | Model | Architecture | Key Technique | Test Accuracy |
 |---|---|---|---|
