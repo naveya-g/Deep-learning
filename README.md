@@ -6,7 +6,7 @@ This project applies **Artificial Neural Networks (ANN)** to solve two real-worl
 
 ### Project Objective
 
-To design and evaluate deep learning models that can accurately classify multi-class targets from structured and image-based data, while exploring optimization techniques such as Batch Normalization, Dropout, and Kernel Initialization to improve model performance.
+This project has two goals. First, to predict whether a communication device is producing a good or poor quality signal based on its test readings. Second, to teach a computer to read house numbers from real street photos - the same way Google Maps identifies building addresses. Both problems are solved by training a neural network to learn patterns from data and make accurate predictions.
 
 ---
 
