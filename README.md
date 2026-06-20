@@ -6,9 +6,7 @@ This project applies **Artificial Neural Networks (ANN)** to solve two real-worl
 
 ### Project Objective
 
-This project has two goals. 
-
-First, to predict whether a communication device is producing a good or poor quality signal based on its test readings.
+This project has two goals. First, to predict whether a communication device is producing a good or poor quality signal based on its test readings.
 
 Second, to teach a computer to read house numbers from real street photos - the same way Google Maps identifies building addresses. Both problems are solved by training a neural network to learn patterns from data and make accurate predictions.
 
