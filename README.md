@@ -85,4 +85,4 @@ Second, to teach a computer to read house numbers from real street photos - the 
 
 **Part 1** enables communications equipment companies to proactively monitor and classify signal quality using measurable parameters, supporting predictive maintenance and quality assurance pipelines.
 
-**Part 2** demonstrates how neural networks can automate address localization from street-level imagery — a core component in building accurate, scalable digital maps for autonomous navigation systems.
+**Part 2** demonstrates how neural networks can automate address localization from street-level imagery - a core component in building accurate, scalable digital maps for autonomous navigation systems.
